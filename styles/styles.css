@@ -1,0 +1,35 @@
+.body{
+    margin: 0px;
+}
+
+.container{
+    height: 1200px;
+    width: 100%;
+    background-color: rgb(7, 35, 66);
+}
+.header{
+    color: darkorange;
+    display: flex;
+    justify-content: center;
+}
+.main-body{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.main-body > .sign{
+    color: yellow;
+    font-size: 2rem;
+}
+span.h1{
+    color: greenyellow;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.main-body > .sign-board img{
+    height: 150px;
+    font-weight: 400px;
+    padding-top: 100px;
+}
